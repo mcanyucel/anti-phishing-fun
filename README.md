@@ -1,5 +1,6 @@
 ## How to use
 
+### Installation
 Install the [driver for selenium](https://packages.debian.org/buster/chromium-driver):
 
 ```bash
@@ -12,4 +13,11 @@ Create a new environment for python
 ```bash
 python -m venv .venv
 source .venv/bin/activate
+```
+
+### Testing
+Use *driver-test.py* to see if the installation is successful:
+
+```bash
+python ./driver-test.py 
 ```
